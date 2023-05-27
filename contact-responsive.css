@@ -1,0 +1,58 @@
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.Title{
+  width:100%;
+  font-size:0.9em;
+}
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+  .Title{
+    width:100%;
+    font-size:0.56em;
+  }
+  .image img{
+    width:100%;
+  }
+}
+@media all and (max-width: 480px) {
+  header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+  .Title{
+    width:100%;
+    font-size:0.4em;
+  }
+  .image img{
+    width:100%;
+  }
+}
+@media all and (max-width: 350px) {
+  header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+  .Title{
+    width:100%;
+    font-size:0.29em;
+  }
+  .image img{
+    width:100%;
+  }
+}

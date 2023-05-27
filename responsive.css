@@ -1,0 +1,181 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .TripleDisplay{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .DisplayTwo{
+    margin-top:30px;
+  }
+  .DisplayThree{
+    margin-top:30px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body{
+    height: 610vh;
+  }
+  .slide-container{
+    width:100%;
+  }
+  .overlay{
+    width:100%;
+    font-size:0.9em;
+    margin-left:16%;
+    
+  }
+  .header{
+    padding:0;
+  }
+  .Website-Name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+  .top-nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-size:0.9em;
+    width: 100%;
+  }
+  .TripleDisplay{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .DisplayTwo{
+    margin-top:30px;
+  }
+  .DisplayThree{
+    margin-top:30px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+.top-nav{
+  display:none;
+}
+.TripleDisplay{
+  flex-wrap: wrap;
+}
+.DisplayTwo{
+  margin-top:30px;
+}
+.DisplayThree{
+  margin-top:30px;
+}
+.container-website-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.ways-to-contact{
+  margin:0;
+  margin-bottom:20px;
+}
+.rockplanet-flying{
+  width:90%;
+}
+.image-floating3 img{
+  width:70%;
+}
+.card-image{
+  display:none;
+}
+}
+@media all and (max-width: 480px) {
+  .top-nav{
+    display:none;
+  }
+  .TripleDisplay{
+    flex-wrap: wrap;
+  }
+  .DisplayTwo{
+    margin-top:30px;
+  }
+  .DisplayThree{
+    margin-top:30px;
+  }
+  .floating-image2{
+    display:none;
+  }
+  .rockplanet-flying{
+    display:none;
+  }
+  .image-floating3 img{
+    display:none;
+  }
+  .card-image{
+    display:none;
+  }
+  .container-website-details{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  .ways-to-contact{
+    margin:0;
+    margin-bottom:20px;
+  }
+  .overlay h1{
+    width:100%;
+    text-align: center;
+  }
+  .image-content span h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: auto;
+}
+}
+@media all and (max-width: 350px) {
+  .image-content span h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: auto;
+}
+.container-website-details{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.ways-to-contact{
+  margin:0;
+  margin-bottom:20px;
+  font-size:1em;
+}
+.Reviews h1 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-bottom: 100px;
+}
+.DisplayOne{
+  height: auto;
+}
+.DisplayTwo{
+  height: auto;
+}
+.DisplayThree{
+  height: auto;
+}
+} 
